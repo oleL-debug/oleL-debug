@@ -1,0 +1,64 @@
+# Learning and Building AI Agents from Scratch
+
+## 1. Fundamentals
+- Understand what Artificial Intelligence (AI) is.
+- Learn what an "agent" means in AI—perception, reasoning, and action.
+- Types of agents: reflex, model-based, goal-based, utility-based.
+
+**Resources:**
+- [AIMA Book (Russell & Norvig)](https://aima.cs.berkeley.edu/)
+- [Stanford CS221 Lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
+
+---
+
+## 2. Python Programming Basics
+- Learn Python syntax, functions, classes, and data structures.
+
+**Resources:**
+- [Official Python Tutorial](https://docs.python.org/3/tutorial/)
+
+---
+
+## 3. Build a Simple Reflex Agent
+
+### Example Project: Reflex Agent in a Grid World
+
+Steps:
+1. Define the environment (e.g., simple 5x5 grid).
+2. Define agent perception (its position, whether there’s a wall).
+3. Define agent actions (move up, down, left, right).
+4. Implement simple rules (e.g., always move right if possible, else move down).
+
+---
+
+## 4. Search & Planning
+- Learn about state spaces, actions, transition models.
+- Study search algorithms: Breadth-First Search (BFS), Depth-First Search (DFS), A*.
+
+---
+
+## 5. Machine Learning (ML) & Reinforcement Learning (RL)
+- Understand basics of supervised, unsupervised, and RL.
+- Learn about Q-learning and value-based methods.
+
+**Resources:**
+- [OpenAI Gym](https://gym.openai.com/)
+- [David Silver’s RL Course](https://www.davidsilver.uk/teaching/)
+
+---
+
+## 6. Build a Learning Agent
+- Implement a Q-learning agent in a grid world.
+- Experiment with different environments and rewards.
+
+---
+
+## 7. Expand & Experiment
+- Try building: simple chatbots, game AI, or multi-agent systems.
+- Contribute to open source, join AI communities, and participate in competitions (Kaggle, AIcrowd).
+
+---
+
+# Example: Simple Reflex Agent in Python
+
+See `reflex_agent.py` for an example.
